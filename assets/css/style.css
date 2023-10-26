@@ -939,17 +939,17 @@ a.slicknav_item.slicknav_row {
     position: relative;
 }  
 .single-product {
-    max-width: 320px;
+    max-width: 300px;
     height:min-content;
   }
 
   .single-product-img {
-    height:min-content; /* Set the height to 100% of the parent container */
+    height:200px; /* Set the height to 100% of the parent container */
   }
 
   .single-product-img img {
     max-width: 100%; /* Set the maximum width to 100% of the parent container */
-    height: auto; /* Allow the image's height to adjust proportionally */
+    height: 100%; /* Allow the image's height to adjust proportionally */
     display: block; /* Remove any extra spacing or gaps */
     margin: 0 auto; /* Center the image horizontally */
   }
